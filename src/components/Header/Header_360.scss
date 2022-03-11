@@ -1,0 +1,54 @@
+@import 'src/components/variables';
+
+@media (max-width: 1440px){
+  .header {
+    width: 360px;
+    height: 80px;
+    background-color: $color-white;
+    border-bottom: none;
+    display: flex;
+    position: relative;
+  }
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .header-logo{
+      height: 56px;
+      width: 66px;
+      right: 50%;
+      transform: translateX(50%);
+      position: absolute;
+    }
+    .header-logo:before{
+      content: '';
+      position: absolute;
+      background-image: url("./img/logo.svg");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      right: 0;
+      height: 56px;
+      width: 66px;
+    }
+    .header-logo:after{
+      content: '';
+    }
+  }
+
+  .nav{
+    display: none;
+  }
+  .nav-left{
+    a{
+      display: none;
+    }
+  }
+  .sign-in-360 {
+    display: block;
+    margin-right: 32px;
+  }
+    //display: block;
+  .nav-right{
+  }
+}

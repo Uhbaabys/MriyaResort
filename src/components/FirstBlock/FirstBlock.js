@@ -1,5 +1,6 @@
 import React from "react";
-import './Head.scss';
+import './FirstBlock.scss';
+import './360.scss';
 import Button from "../Button/Button";
 import SocialLink from "../SocialLink/SocialLink";
 import img_facebook from './img/facebook.svg'
@@ -7,7 +8,7 @@ import img_twitter from './img/twitter.svg'
 import img_insta from './img/instagramm.svg'
 import img_arrow from './img/arrow.svg'
 
-const Head = () => {
+const FirstBlock = () => {
     return (
         <div className={'first-block-container'}>
             <div className={'first-block-left-column'}>
@@ -40,4 +41,4 @@ const Head = () => {
     )
 }
 
-export default Head;
+export default FirstBlock;

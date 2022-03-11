@@ -1,180 +1,180 @@
 @import 'src/components/variables';
 
-.choice-holiday-wrapper{
-  margin: 0 0 96px 0;
-}
-.choice-holiday-form-container{
-  margin: 0 0 0 140px;
-}
-.choice-holiday-title{
-  font: $font-title;
-  color: $color-grey-dark;
-  text-align: left;
-}
-.choice-holiday-form{
-  width: 1160px;
-  height: 80px;
-  margin-top: 50px;
-  background-color: $color-light;
-  border-radius: 10px;
-  display: flex;
-  justify-content: left;
-  .input-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 984px;
+@media (max-width: 1440px) {
+  .choice-holiday-wrapper{
+    margin: 35px 0 96px 0;
   }
-  input{
-    border: 1px solid $color-borders;  padding-left: 10px;
-    cursor: pointer;
+  .choice-holiday-form-container{
+    margin: 0 0 0 16px;
   }
-  input:focus{
-    border: 1px solid $color-light-gold;
-   }
-  .input-submit{
-    min-width: 144px;
-    height: 80px;
-    background-color: $color-grey-dark;
-    color: $color-white;
-    border-radius: 0 8px 8px 0;
-    cursor: pointer;
-    font: $font-navigation-button;
-  }
-}
-
-.input-type-wrapper{
-  position: relative;
-}
-.input-type{
-  min-width: 328px;
-  height: 64px;
-  margin: 0 8px 0 8px;
-}
-.input-type-wrapper:after{
-  content: '';
-  position: absolute;
-  background-image: url("./img/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 10px;
-  height: 5px;
-  top: 30px;
-  right: 25px;
-}
-
-.input-date{
-  min-width: 264px;
-  height: 64px;
-  margin-right: 8px;
-}
-.input-date-wrapper{
-  position: relative;
-}
-.input-date-wrapper:after{
-  content: '';
-  position: absolute;
-  background-image: url("./img/calendar.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 23px;
-  height: 22px;
-  top: 25px;
-  right: 20px;
-}
-
-.input-persons{
-  min-width: 392px;
-  height: 64px;
-  margin-right: 8px;
-}
-.input-person-wrapper{
-  position: relative;
-}
-.input-person-wrapper:after{
-  content: '';
-  position: absolute;
-  background-image: url("./img/person.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 23px;
-  height: 22px;
-  top: 25px;
-  right: 20px;
-}
-
-.choice-holiday-content{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  p{
-    width: 500px;
-    display: block;
-    margin: 0 auto;
-    font: $font-choice-holiday-content;
+  .choice-holiday-title{
+    font: 700 24px/56px 'SangBleu Kingdom';
     color: $color-grey-dark;
-    text-align: center;
+    text-align: left;
   }
-  Button{
-    margin: 0 auto;
-    margin-top: 32px;
+  .choice-holiday-form{
+    max-width: 328px;
+    height: 312px;
+    margin-top: 21px;
+    background-color: $color-light;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .input-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+      padding-left: 8px;
+      width: 100%;
+    }
+    input{
+      border: 1px solid $color-borders;  padding-left: 10px;
+      cursor: pointer;
+      width: 312px;
+      height: 64px;
+    }
+    input:focus{
+      border: 1px solid $color-light-gold;
+    }
+    .input-submit{
+      height: 64px;
+      min-width: 312px;
+      border-radius: 8px;
+      cursor: pointer;
+      font: $font-navigation-button;
+      padding: 0;
+    }
   }
-}
-.choice-holiday-content:before{
-  content: '';
-  position: absolute;
-  background-image: url("./img/111.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 365px;
-  height: 880px;
-  top: -140px;
-  left: 0;
-  z-index: -1;
-}
-.choice-holiday-content:after{
-  content: '';
-  position: absolute;
-  background-image: url("./img/222.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 480px;
-  height: 880px;
-  top: 130px;
-  right: 0;
-  z-index: -1;
-}
 
-.choice-holiday-content-title{
-  position: relative;
-  margin: 200px 0 124px 0;
-  font: $font-title;
-  color: $color-grey-dark;
-  span{
-    font-weight: 300;
+  .input-type-wrapper{
+    position: relative;
   }
-}
+  .input-type{
+    min-width: 312px;
+    margin: 0;
+    padding: 0;
+  }
+  .input-type-wrapper:after{
+    content: '';
+    position: absolute;
+    background-image: url("./img/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 10px;
+    height: 5px;
+    top: 30px;
+    right: 25px;
+  }
 
-.choice-holiday-content-title:before{
-  content: '';
-  position: absolute;
-  background-image: url("./img/waves.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 146px;
-  height: 8px;
-  top: -85px;
-  left: 650px;
-}
-.choice-holiday-content-title:after{
-  content: '';
-  position: absolute;
-  background-image: url("./img/logo.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 62px;
-  height: 40px;
-  top: 150px;
-  left: 690px;
+  .input-date{
+    min-width: 312px;
+    padding: 0;
+  }
+  .input-date-wrapper{
+    position: relative;
+  }
+  .input-date-wrapper:after{
+    content: '';
+    position: absolute;
+    background-image: url("./img/calendar.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 23px;
+    height: 22px;
+    top: 25px;
+    right: 20px;
+  }
+
+  .input-persons{
+    width: 312px;
+    height: 64px;
+    margin-right: 0;
+    min-width: 312px;
+    padding: 0;
+  }
+  .input-person-wrapper{
+    position: relative;
+    width: 312px;
+    height: 64px;
+  }
+  .input-person-wrapper:after{
+    content: '';
+    position: absolute;
+    background-image: url("./img/person.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 23px;
+    height: 22px;
+    top: 25px;
+    right: 20px;
+  }
+
+  .choice-holiday-content{
+    position: relative;
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    justify-content: center;
+    p{
+      width: 328px;
+      display: block;
+      margin: 0 auto;
+      font: $font-choice-holiday-content;
+      color: $color-grey-dark;
+      text-align: center;
+    }
+    Button{
+      margin: 0 auto;
+      margin-top: 32px;
+    }
+  }
+
+  .choice-holiday-content:after{
+    content: '';
+    position: absolute;
+    background-image: url("./img/360/222.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 213px;
+    height: 345px;
+    top: 450px;
+    right: 0;
+    z-index: -1;
+  }
+
+  .choice-holiday-content-title{
+    position: relative;
+    margin: 143px 0 75px 0;
+    font: 700 24px/32px 'SangBleu Kingdom';
+    color: $color-grey-dark;
+    span{
+      font-weight: 300;
+    }
+  }
+
+  .choice-holiday-content-title:before{
+    content: '';
+    position: absolute;
+    background-image: url("./img/waves.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 146px;
+    height: 8px;
+    top: -85px;
+    left: 120px;
+  }
+  .choice-holiday-content-title:after{
+    content: '';
+    position: absolute;
+    background-image: url("./img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    width: 37px;
+    height: 24px;
+    top: 100px;
+    left: 150px;
+  }
 }

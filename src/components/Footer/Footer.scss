@@ -1,0 +1,61 @@
+@import "src/components/variables";
+
+.footer-container{
+  height: 708px;
+  width: 100%;
+  background-image: url("./img/Mriya Resort.svg");
+  background-repeat: no-repeat;
+  top: 150px;
+  position: relative;
+}
+.footer-container:before{
+  content: '';
+  position: absolute;
+  background-image: url("./img/Tablet.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: auto;
+  left: 412px;
+  top: -290px;
+  width: 616px;
+  height: 812px;
+  z-index: 10;
+}
+.footer-container:after{
+  content: '';
+  position: absolute;
+  background-image: url("./img/logo.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: auto;
+  bottom: 103px;
+  width: 66px;
+  height: 56px;
+  z-index: 10;
+}
+
+@media (max-width: 1440px){
+  .footer-container{
+    background-image: none;
+    width: 360px;
+    height: 344px;
+  }
+  .footer-container:before{
+    background-image: none;
+  }
+  .footer-container:after{
+    bottom: 144px;
+  }
+  .footer-container:before{
+    content: '';
+    position: absolute;
+    background-image: url("./img/111.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 365px;
+    height: 880px;
+    top: -150px;
+    left: 0;
+    z-index: -1;
+  }
+}

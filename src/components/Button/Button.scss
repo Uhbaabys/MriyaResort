@@ -1,0 +1,21 @@
+@import 'src/components/variables';
+button{
+  border-color: transparent;
+  width: 200px;
+  height: 64px;
+  text-align: center;
+  border-radius: 10px;
+  font: $font-navigation-button;
+  cursor: pointer;
+}
+
+.gold{
+  background-color: $color-gold;
+  color: $color-white;
+}
+
+.white{
+  background-color: $color-white;
+  color: $color-grey-dark;
+  border: 1px solid $color-light-gold;
+}
