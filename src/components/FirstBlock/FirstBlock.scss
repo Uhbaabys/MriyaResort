@@ -1,0 +1,160 @@
+@import 'src/components/variables';
+
+.first-block-container{
+  height: 800px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.first-block-left-column{
+  text-align: left;
+  padding-left: 135px;
+  h1{
+    font: $font-h1;
+    color: $color-grey-dark;
+  }
+  .title{
+    margin-top: 79px;
+  }
+  .title:before{
+    content: '';
+    position: absolute;
+    background-image: url("./img/waves.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 182px;
+    height: 32px;
+    left: 100px;
+    top: 110px;
+  }
+  .sub-title{
+    font: $font-sub-title;
+    color: $color-grey-dark;
+    margin-bottom: 57px;
+  }
+  .button-panel{
+    display: flex;
+    width: 100%;
+    Button{
+      margin-right: 40px;
+    }
+  }
+  .arrow{
+    width: 64px;
+    height: 64px;
+    border: 1px solid $color-light-gold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 12px;
+      height: 8px;
+    }
+  }
+  .strip{
+    height: 48px;
+    width: 1px;
+    display: block;
+    margin: 24px 0 24px 32px;
+    background-color: $color-light-gold;
+  }
+}
+.first-block-right-column{
+  display: grid;
+  grid-template-columns: auto 200px;
+}
+.first-block-right-column:after{
+  content: '';
+  position: absolute;
+  background-image: url("./img/flower.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  right: 40px;
+  top: -1px;
+  width: 910px;
+  height: 936px;
+  z-index: -1;
+}
+
+.social-list{
+  margin-top: 190px;
+  height: 256px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-info{
+  margin-top: 600px;
+  margin-left: 420px;
+  color: $color-white;
+  text-align: left;
+}
+.temperature{
+  font-size: 48px;
+  margin: 0;
+  position: relative;
+  z-index: 10;
+}
+.temperature:after{
+  content: '';
+  position: absolute;
+  background-image: url("./img/Intersect2.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  right: -286px;
+  top: -72px;
+  width: 720px;
+  height: 320px;
+  z-index: -1;
+}
+.temperature:before{
+  content: '';
+  position: absolute;
+  background-image: url("./img/Cloudly.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 59px;
+  height: 40px;
+  right: 120px;
+  top: 10px;
+}
+.cloud{
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  z-index: 10;
+}
+.cloud:after{
+  content: '';
+  position: absolute;
+  background-image: url("./img/Intersect.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  right: -200px;
+  top: -138px;
+  width: 720px;
+  height: 320px;
+  z-index: -1;
+}
+.location{
+  position: relative;
+  margin:0;
+  font-size: 16px;
+  z-index: 10;
+}
+.location:before{
+  content: '';
+  position: absolute;
+  background-image: url("./img/pin.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 12px;
+  height: 16px;
+  right: 120px;
+}
