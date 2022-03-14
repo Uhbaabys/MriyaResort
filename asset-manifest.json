@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MriyaResort/static/css/main.d2e3a7e1.css",
+    "main.css": "/MriyaResort/static/css/main.8e96104b.css",
     "main.js": "/MriyaResort/static/js/main.377dbe0d.js",
     "static/js/787.cd7d7d7f.chunk.js": "/MriyaResort/static/js/787.cd7d7d7f.chunk.js",
     "static/media/flower.png": "/MriyaResort/static/media/flower.c1440b3b366d0290572f.png",
@@ -40,12 +40,12 @@
     "static/media/arrow.svg": "/MriyaResort/static/media/arrow.04dd519e9a8bbf9dfba7.svg",
     "static/media/key.svg": "/MriyaResort/static/media/key.ee5a55aeada0552b6879.svg",
     "static/media/close.svg": "/MriyaResort/static/media/close.7a69ec13d9b96fe620706a24a561774e.svg",
-    "main.d2e3a7e1.css.map": "/MriyaResort/static/css/main.d2e3a7e1.css.map",
+    "main.8e96104b.css.map": "/MriyaResort/static/css/main.8e96104b.css.map",
     "main.377dbe0d.js.map": "/MriyaResort/static/js/main.377dbe0d.js.map",
     "787.cd7d7d7f.chunk.js.map": "/MriyaResort/static/js/787.cd7d7d7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2e3a7e1.css",
+    "static/css/main.8e96104b.css",
     "static/js/main.377dbe0d.js"
   ]
 }
