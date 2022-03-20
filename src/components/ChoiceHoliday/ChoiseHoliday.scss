@@ -10,6 +10,9 @@
   font: $font-title;
   color: $color-grey-dark;
   text-align: left;
+  h2{
+    margin-top: 0;
+  }
 }
 .choice-holiday-form{
   width: 1160px;

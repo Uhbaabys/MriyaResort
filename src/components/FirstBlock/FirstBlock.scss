@@ -13,9 +13,11 @@
   h1{
     font: $font-h1;
     color: $color-grey-dark;
+    margin: 47px 0 41px 0;
   }
   .title{
     margin-top: 79px;
+    position: relative;
   }
   .title:before{
     content: '';
@@ -25,8 +27,8 @@
     background-position: 0 0;
     width: 182px;
     height: 32px;
-    left: 100px;
-    top: 110px;
+    left: -100px;
+    top: -50px;
   }
   .sub-title{
     font: $font-sub-title;
@@ -64,6 +66,7 @@
 .first-block-right-column{
   display: grid;
   grid-template-columns: auto 200px;
+  position: relative;
 }
 .first-block-right-column:before{
   content: '';
@@ -71,9 +74,9 @@
   background-image: url("./img/flower.png");
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-size: contain;
+  background-size: auto 100%;
   right: 40px;
-  top: -1px;
+  top: -80px;
   width: 910px;
   height: 936px;
   z-index: -1;
@@ -86,7 +89,7 @@
   background-position: 0 0;
   background-size: contain;
   right: 40px;
-  top: -10px;
+  top: -80px;
   width: 965px;
   height: 936px;
   z-index: -2;
@@ -119,8 +122,8 @@
   background-image: url("./img/Intersect2.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  right: -286px;
-  top: -72px;
+  right: -246px;
+  top: -70px;
   width: 720px;
   height: 320px;
   z-index: -1;
@@ -148,7 +151,7 @@
   background-image: url("./img/Intersect.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  right: -200px;
+  right: -160px;
   top: -138px;
   width: 720px;
   height: 320px;
